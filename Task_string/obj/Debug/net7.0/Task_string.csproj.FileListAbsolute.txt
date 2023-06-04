@@ -1,0 +1,15 @@
+/Users/vado/Desktop/Final_work/Task_string/bin/Debug/net7.0/Task_string
+/Users/vado/Desktop/Final_work/Task_string/bin/Debug/net7.0/Task_string.deps.json
+/Users/vado/Desktop/Final_work/Task_string/bin/Debug/net7.0/Task_string.runtimeconfig.json
+/Users/vado/Desktop/Final_work/Task_string/bin/Debug/net7.0/Task_string.dll
+/Users/vado/Desktop/Final_work/Task_string/bin/Debug/net7.0/Task_string.pdb
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.csproj.AssemblyReference.cache
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.AssemblyInfoInputs.cache
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.AssemblyInfo.cs
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.csproj.CoreCompileInputs.cache
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.dll
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/refint/Task_string.dll
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.pdb
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/Task_string.genruntimeconfig.cache
+/Users/vado/Desktop/Final_work/Task_string/obj/Debug/net7.0/ref/Task_string.dll

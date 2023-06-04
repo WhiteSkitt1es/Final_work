@@ -7,3 +7,36 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
+
+
+string[] PrintArray()
+{
+    Console.WriteLine("Введите количество элементов массива");
+
+    int elementsCount = int.Parse(Console.ReadLine()!);
+
+    string [] massive = new string [elementsCount];
+
+    for (int i = 0; i < massive.Length; i++)
+    {
+        Console.Write($"Введите число элемента массива под номером {i + 1}: ");
+        massive[i] = Console.ReadLine()!;
+    }
+    Console.WriteLine(string.Join(',', massive));
+
+    return massive;
+}
+
+
+
+PrintArray();
+
+
+
+
+
+
+
+
+
+// Console.WriteLine(string.Join(',', array));
