@@ -9,9 +9,9 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 
-string[] PrintArray()
+string[] InputArray()
 {
-    Console.WriteLine("Введите количество элементов массива");
+    Console.WriteLine("Введите количество элементов массива: ");
 
     int elementsCount = int.Parse(Console.ReadLine()!);
 
@@ -24,31 +24,47 @@ string[] PrintArray()
     }
     return massive;
 }
-PrintArray();
 
-string [] array = PrintArray();
+string[] array1 = InputArray();
 
-string [] CreateSecondArray (string[] array)
+string [] CreateSecondArray (string[] massive)
 {
-    int index = 0;
+    int count = 0;
 
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < massive.Length; i++)
     {
-        string text = array[i];
-        if (text.Length <= 3)
+        if (massive[i].Length <=3)
         {
-            index ++;
+            count++;
         }
     }
     
-    string[] newArray = new string [index];
+    string[] newArray = new string [count];
     return newArray;
 
 }
 
-CreateSecondArray(array);
+string[] array2 = CreateSecondArray(array1);
 
+void SortingArray(string[] array1,string[] array2)
+{
+    int index = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+        if (index <= array2.Length)
+        {
+            if (array1[i].Length <= 3)
+            {
+                array2[index] = array1[i];
+                index ++;
+            }
+        }
 
+    }
+    Console.WriteLine(string.Join(',', array2));
+}
+
+SortingArray(array1,array2);
 
 
 
