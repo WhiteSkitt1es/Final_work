@@ -15,25 +15,25 @@ string[] InputArray()
 
     int elementsCount = int.Parse(Console.ReadLine()!);
 
-    string [] massive = new string [elementsCount];
+    string [] array = new string [elementsCount];
 
-    for (int i = 0; i < massive.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"Введите строку элемента массива под номером {i + 1}: ");
-        massive[i] = Console.ReadLine()!;
+        array[i] = Console.ReadLine()!;
     }
-    return massive;
+    return array;
 }
 
 string[] array1 = InputArray();
 
-string [] CreateSecondArray (string[] massive)
+string [] CreateSecondArray (string[] array)
 {
     int count = 0;
 
-    for (int i = 0; i < massive.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (massive[i].Length <=3)
+        if (array[i].Length <=3)
         {
             count++;
         }
