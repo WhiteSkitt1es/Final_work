@@ -28,6 +28,28 @@ PrintArray();
 
 string [] array = PrintArray();
 
+string [] CreateSecondArray (string[] array)
+{
+    int index = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        string text = array[i];
+        if (text.Length <= 3)
+        {
+            index ++;
+        }
+    }
+    
+    string[] newArray = new string [index];
+    return newArray;
+
+}
+
+CreateSecondArray(array);
+
+
+
 
 
 
