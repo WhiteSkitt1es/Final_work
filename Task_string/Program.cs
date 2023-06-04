@@ -22,14 +22,13 @@ string[] PrintArray()
         Console.Write($"Введите число элемента массива под номером {i + 1}: ");
         massive[i] = Console.ReadLine()!;
     }
-    Console.WriteLine(string.Join(',', massive));
-
     return massive;
 }
-
-
-
 PrintArray();
+
+string [] array = PrintArray();
+
+
 
 
 
