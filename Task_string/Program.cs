@@ -19,7 +19,7 @@ string[] InputArray()
 
     for (int i = 0; i < massive.Length; i++)
     {
-        Console.Write($"Введите число элемента массива под номером {i + 1}: ");
+        Console.Write($"Введите строку элемента массива под номером {i + 1}: ");
         massive[i] = Console.ReadLine()!;
     }
     return massive;
