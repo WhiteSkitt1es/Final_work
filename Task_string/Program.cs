@@ -61,7 +61,7 @@ void SortingArray(string[] array1,string[] array2)
         }
 
     }
-    Console.WriteLine(string.Join(',', array2));
+    Console.WriteLine($"[{string.Join(',', array1)}] -> [{string.Join(',', array2)}]");
 }
 
 SortingArray(array1,array2);
